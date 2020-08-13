@@ -24,6 +24,7 @@ export const rootReducer = (state = initialState, action) => {
         ...state,
         total: (state.total = state.total + addition - deduction),
       };
+
     default:
       return state;
   }

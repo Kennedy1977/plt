@@ -19,6 +19,11 @@ export const ActionsPanel = (props) => {
       total = 0;
     }
 
+    if (dir === -1 && oldQty === 0) {
+      preTotal = 0;
+      total = 0;
+    }
+
     dispatch(updateTotal([preTotal, total]));
   }
 
