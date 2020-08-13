@@ -19,8 +19,6 @@ export const ActionsPanel = (props) => {
       total = 0;
     }
 
-    console.log(preTotal, total);
-
     dispatch(updateTotal([preTotal, total]));
   }
 
