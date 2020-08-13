@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "productTitle": "WHITE POLKA DOT STRAPPY RUCHED BODICE SKATER DRESS",
+      "img": "/assets/img/dress-001.jpg",
+      "price": "15.00",
+      "colour": "white"
+    },
+    {
+      "id": "p2",
+      "productTitle": "BLACK FLORAL BARDOT TIE FRONT SKATER DRESS",
+      "img": "/assets/img/dress-002.jpg",
+      "price": "18.00",
+      "colour": "black"
+    },
+    {
+      "id": "p3",
+      "productTitle": "PETITE RED DITSY PRINTED BARDOT FRILL HEM SKATER DRESS",
+      "img": "/assets/img/dress-003.jpg",
+      "price": "18.00",
+      "colour": "red"
+    },
+    {
+      "id": "p4",
+      "productTitle": "RED HIGH NECK TIERED SKATER DRESS",
+      "img": "/assets/img/dress-004.jpg",
+      "price": "20.00",
+      "colour": "red"
+    },
+    {
+      "id": "p5",
+      "productTitle": "SAGE GREEN HIGH NECK TIERED SKATER DRESS",
+      "img": "/assets/img/dress-005.jpg",
+      "price": "30.00",
+      "colour": "green"
+    },
+    {
+      "id": "p6",
+      "productTitle": "WHITE V NECK PUFF SLEEVE CORSET DETAIL SKATER DRESS",
+      "img": "/assets/img/dress-006.jpg",
+      "price": "24.00",
+      "colour": "white"
+    }
+  ]
+}
