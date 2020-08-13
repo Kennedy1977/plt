@@ -14,6 +14,13 @@ export const ActionsPanel = (props) => {
     dir === 0 ? setQty(0) : newQty === -1 ? setQty(0) : setQty(newQty);
     let preTotal = parseFloat(oldQty * props.price);
     let total = parseFloat(newQty * props.price);
+
+    if (dir === 0) {
+      total = 0;
+    }
+
+    console.log(preTotal, total);
+
     dispatch(updateTotal([preTotal, total]));
   }
 
